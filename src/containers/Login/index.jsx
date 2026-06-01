@@ -1,4 +1,4 @@
-import { Button, CaixaDireita, CaixaEsquerda, CaixaImput, Containers, Formulario, Link, Titulo } from "./styles"
+import { Button, CaixaDireita, CaixaEsquerda, CaixaImput, Containers, Formulario,  Titulo } from "./styles"
 import Logo from './../../assets/Logo.svg'
 
 export function Login() {
@@ -18,7 +18,8 @@ export function Login() {
             <CaixaDireita>
 
                 <Titulo>Olá, seja bem vindo ao <span>Dev Burguer!</span>
-                    Acesse com seu <span>Login e senha.</span>
+                <br/>
+                Acesse com seu <span>Login e senha.</span>
                 </Titulo>
 
 
@@ -27,23 +28,23 @@ export function Login() {
 
                     <CaixaImput>
                         <label>Entrar</label>
-                        <imput type="email" />
+                        <input type="email" />
                     </CaixaImput>
 
                     <CaixaImput>
                         <label>Senha</label>
-                        <imput type="password" />
+                        <input type="password" />
                     </CaixaImput>
-
-
-                    <Link>Esqueci minha senha</Link>
+                    
 
                     <Button>Entrar</Button>
 
 
                 </Formulario>
 
-                <Link>Não possui conta? Clique aqui.</Link>
+                <p>
+                    Não possui conta? <a>Clique aqui.</a>
+                </p>
 
                
 
