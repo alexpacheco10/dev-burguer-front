@@ -70,6 +70,7 @@ export const Titulo = styled.h2`
 
     span{
         color:#9758A6;
+        font-family: "Road Rage", sans-serif;
 ;
     }
 
@@ -94,25 +95,25 @@ export const CaixaImput = styled.div`
     padding: 5px;
     width: 100%;
 
-    input {
+   label{
+        font-size: 18px;
+        font-weight: 600px;
+        color: #fff;
+   }
+   
+   input {
         width: 100%;
         border: none;
         height: 52px;
         border-radius: 5px;
         padding: 0 16px;
-
-        label{
-            font-size: 18px;
-            font-weight: 600;
-            color: #fff;
-        }
-    }
+   }
 
 `;
 
 
+        
 
-export const Button = styled.button``;
 
 
 
